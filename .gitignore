@@ -1,0 +1,10 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java 编译输出
+out/
+*.class
+
+# 可选
+.DS_Store
