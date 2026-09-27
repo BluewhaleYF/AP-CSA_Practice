@@ -1,6 +1,5 @@
 import java.util.Scanner;
-// finally output the two swapped numbers.
-// (For example, if the user enters 3 and 4, the output should be 4 and 3.)
+
 public class homework_3 {
     public static void main(String[] args) {
 
@@ -11,12 +10,13 @@ public class homework_3 {
         System.out.println("Please enter the second number:");
         int b = user.nextInt();
 
-        // swap the values stored in these two variables
+        //Swap the values stored in these two variables
         int swap = 0;
         swap = a;
         a = b;
         b = swap;
 
+        //Finally output the two swapped numbers.
         System.out.print(a);
         System.out.print(b);
     }
