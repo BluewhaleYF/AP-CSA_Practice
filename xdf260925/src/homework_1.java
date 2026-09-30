@@ -21,9 +21,8 @@ public class homework_1 {
             //Print “Zero!” if integer is zero
             System.out.println("Zero!");
         }
-        else{
-            //Print “End!” when done.
-            System.out.println("End!");
-        }
+
+        //Print “End!” when done.
+        System.out.println("End!");
     }
 }
