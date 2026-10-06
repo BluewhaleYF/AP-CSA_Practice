@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class class2 {
     public static void main(String[] args) {
 
@@ -44,11 +42,18 @@ public class class2 {
             System.out.println();
         }
 
-         */
-
         for ( int j = 0 ; j < 10 ; j++ ){
             for ( int k = 10 ; k > j ; k-- ){
                 System.out.print("*");
+            }
+            System.out.println();
+        }
+
+         */
+
+        for (int i = 5 ; i >= 1 ; i-- ){
+            for (int j = i ; j >= 1 ; j-- ) {
+                System.out.print(2 * j - 1);
             }
             System.out.println();
         }
