@@ -1,4 +1,4 @@
-public class class2 {
+public class class2_20261006 {
     public static void main(String[] args) {
 
         /*
