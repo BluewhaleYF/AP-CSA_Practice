@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class class3_20261007 {
     public static void main(String[] args){
 
-        double y = Math.pow(3,2);
+        /*double y = Math.pow(3,2);
         double z = Math.sqrt(256);
         System.out.println(y);
         System.out.println(z);
@@ -93,5 +93,6 @@ public class class3_20261007 {
         }
         System.out.println(sum);
         System.out.println((double)sum/n);
+        */
     }
 }
