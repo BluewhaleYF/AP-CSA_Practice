@@ -28,17 +28,31 @@ public class class3_hw1_261011 {
         double c = user.nextDouble();
 
         //Check b^2-4ac
-        if ( Math.pow(b,2)-4*a*c < 0 ){
+        double delta = b * b - 4 * a * c;
+        if ( delta < 0 ){
+
+            //If there are no real roots
             System.out.println("This quadratic equation has no real roots!");
-        } else {
-            //Calculate the roots
-            double x1, x2;
-            x1 = (b * -1 + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) * Math.pow(2 * a, -1);
-            x2 = (b * -1 - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) * Math.pow(2 * a, -1);
+
+        } else if ( delta == 0 ){
+
+            //If there are two identical roots
+            double x;
+            x = ( -b + Math.sqrt( b * b - 4 * a * c)) / ( 2 * a );
 
             //Output the result
-            System.out.println(x1);
-            System.out.println(x2);
+            System.out.println("x1=x2="+x);
+
+        } else {
+
+            //Calculate the roots
+            double x1, x2;
+            x1 = ( -b + Math.sqrt( b * b - 4 * a * c)) / ( 2 * a );
+            x2 = ( -b - Math.sqrt( b * b - 4 * a * c)) / ( 2 * a );
+
+            //Output the results
+            System.out.println("x1="+x1);
+            System.out.println("x2="+x2);
         }
     }
 }
